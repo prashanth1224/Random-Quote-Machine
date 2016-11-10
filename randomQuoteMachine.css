@@ -1,0 +1,50 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	color: #fff;
+	font: bold 20px tohoma;
+	background: #000;
+	text-align: center;
+
+}
+#resultDiv{
+	margin: auto;
+	border: 1px #fff solid;
+	padding: 20px;
+	border-radius: 5px;
+	background: #cb858c;
+}
+/*#btnNewQoute{
+	position: absolute;
+	margin: 120px;
+}*/
+#author{
+	font: italic 18px tohoma;
+}
+@media(min-width: 700px){
+	body{
+		text-align: center;
+	}
+	#resultDiv{
+		width: 500px;
+		height: 200px;
+		/*text-align: center;		*/
+	}
+	#btnYourQuote{
+		position: absolute;
+		margin-left: -180px;
+		margin-top: -40px;
+	}
+	#btnNewQoute{
+		position: absolute;
+		margin-top: -40px;
+		margin-left: 100px;
+    }
+    
+}
+a{
+	text-decoration: none;
+	/*cursor: pointer;*/
+}
